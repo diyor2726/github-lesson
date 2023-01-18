@@ -1,0 +1,279 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+.container{
+    width: 84.5%;
+    margin: 0 auto;
+
+}
+.home{
+    background-image: url(./images/bg-main.png);
+    height: 120%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+/* navbar qisn boshlandi */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li {
+display: inline-block;
+margin: 15px 22.5px;
+}
+.navbar ul li:hover{
+    color: #34c759;
+    cursor: pointer;
+}
+.logo{
+    margin: auto 0;
+}
+nav{
+    border-bottom: 2px solid rgb(137, 126, 126);
+}
+/*Navbar qism tugadi*/
+
+/*Main qism boshlandi*/
+.main{
+    margin: 80px auto;
+}
+
+
+.main span{
+    display: block;
+    text-align: center;
+    font-size: 72px;
+    letter-spacing: 7px;
+}
+.main p{
+opacity: o.7;
+text-align: center;
+}
+.main button{
+    display: block;
+    padding: 25px 57px;
+    background-color: #34c759;
+    border-radius: 43px;
+    border: nane;
+    margin: 40px auto;
+font-weight: 700;
+font-size: 18px;
+}
+.contact{
+    margin: 60px auto;
+
+}
+.contact-item{ 
+    display:inline-block;       
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-item b{
+    display: block;
+    margin: 10px o;
+}
+.contact-item p{
+    opacity: 0.5;
+}
+.about{
+    background-color: #252525;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+.about h1{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 150px;
+    letter-spacing: 7px;
+    color: #303030;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.about span{
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 95px;
+    left: 30%;
+}
+.about p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #a6a6a6;
+}
+.about-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-images img{
+padding: 10px;
+}
+.work{
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+.work h1{
+    
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 150px;
+    letter-spacing: 7px;
+    color: #303030;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.work span{
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 95px; 
+    left: 40%;
+}
+.work .line{
+    margin: 0 auto;
+}
+
+.line{
+    width: 60px;
+    height: 2px;
+    background-color: #e84e1a;
+}
+.work-info{
+    margin: 30px 0;
+    width: 100%;
+}
+.work-info-item{
+    width: 20%;
+    display: inline-block;
+    background-color: #252525;
+    margin: 15px;
+    padding: 10px;
+}
+.work-info-item b {
+    display: block;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: -0.275px;
+}
+.work-info-item p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1625;
+    color: darkgrey;
+}
+.work-info-item:hover{
+    background-color: #17da4e;
+
+}
+.work-info-item:hover p{
+    color:#000;
+}
+.work-info-item:hover b{
+    color: #000;
+}
+}
+.work-info-item:hover .line{
+background-color: rgb(21, 41, 222);
+}
+.dishes{
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+.dishes h1{
+    
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 150px;
+    letter-spacing: 7px;
+    color: #303030;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.dishes > span{
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 95px; 
+    left: 40%;
+}
+.cards{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    padding: 30px;
+}
+.card-image{
+    position: relative;
+}
+
+.card{
+    background-color: #252525;
+    margin: 15px;
+    text-align: left;
+    border-radius: 8px;
+}
+.card span{
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 30px;
+}
+.card p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.15px;
+    color: #A4A8B2;
+}
+.description p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.15px;
+    color: #A4A8B2;
+}
+.card-container button{
+    margin-right: auto;
+    padding: 20px 32px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #252525;
+    font-weight: 900;
+}
+.card-container button:hover{
+    background-color:#48921d;
+    color: #252525;
+    cursor: pointer;
+}
+button-container{
+    width: 100%;
+}
